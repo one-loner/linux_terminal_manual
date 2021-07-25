@@ -88,7 +88,7 @@ xz file.xz - распаковывает архив file.xz , удаляя ори
 
 tar - наиболее часто используемый архиватор.
 tar cvf archive.tar folder    - Заархивировать папку folder в архив archive.tar. Оригинал папки folder сохраняется. 
-tar cvfz archive.tar folder    - Заархивировать папку folder в архив archive.tar.gz, используя архиватор gzip Оригинал папки folder сохраняется.
+tar cvfz archive.tar.gz folder    - Заархивировать папку folder в архив archive.tar.gz, используя архиватор gzip Оригинал папки folder сохраняется.
 tar xvf archive.tar - Разархивировать archive.tar в текущую папку.
 
 Потоки, конвееры и перенаправления ввода/вывода.
